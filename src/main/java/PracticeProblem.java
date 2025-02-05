@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 public class PracticeProblem {
 
 	public static void main(String args[]) {
+		Scanner input = new Scanner(System.in);
 		q1();
 		q2();
 		q3();
@@ -10,33 +13,68 @@ public class PracticeProblem {
 	}
 
 	public static void q1() {
-		//Write question 1 code here
-		
+		Scanner input = new Scanner(System.in);
+
+		String word;
+		System.out.print("In: ");
+		word = input.nextLine();
+		System.out.println(word);
 	}
 
 	public static void q2() {
-		//Write question 2 code here
+		Scanner input = new Scanner(System.in);
 		
+		int num;
+		int num2;
+
+		System.out.print("In: ");
+		num = input.nextInt();
+		input.nextLine();
+		System.out.print("In: ");
+		num2 = input.nextInt();
+		input.nextLine();
+
+		System.out.println(num / num2);
+		System.out.println(num % num2);
 	}
 
 	public static void q3() {
-		//Write question 3 code here
+		Scanner input = new Scanner(System.in);
 		
+		String word;
+		System.out.print("In: ");
+		word = input.nextLine();
+		System.out.println(word + " was the text you wrote");
 	}
 
 	public static void q4() {
-		//Write question 4 code here
-		
+		Scanner input = new Scanner(System.in);
+
+		int num;
+		System.out.print("In: ");
+		num = input.nextInt();
+		input.nextLine();
+		System.out.println(num * 5);
 	}
 
 	public static void q5() {
-		//Write question 5 code here
-		
+		Scanner input = new Scanner(System.in);
+
+		boolean bool;
+		System.out.print("In: ");
+		bool = input.nextBoolean();
+		input.nextLine();
+		System.out.println(bool + " is a boolean");
 	}
 
 	public static void q6() {
-		//Write question 6 code here
-		
+		Scanner input = new Scanner(System.in);
+
+		double fractionalNum;
+		System.out.print("In: ");
+		fractionalNum = input.nextDouble();
+		input.nextLine();
+		System.out.println(fractionalNum - 3.2);
 	}
 
 }
